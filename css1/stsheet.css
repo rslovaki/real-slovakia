@@ -1,0 +1,111 @@
+/*[class^="fa-"], [class*=" fa-"]{font-family:'Font Awesome 5 Pro','Font Awesome 5 Brands';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}*/
+
+.tl {
+	text-align:center;margin:30px 0;position:relative;
+}
+
+#content .tl {
+    text-align: center;
+    margin: 30px 0;
+    position: relative;
+}
+
+#main_block.pros-list::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.pros-list .col {
+    width: 33.3%;
+    float: left;
+    margin-bottom: 55px;
+}
+
+.pros-list .col .col-container::before, .pros-list-5 .col .col-container::before, .pros-list-6 .col .col-container::before, .prost-list-w-descr .col .col-container::before {
+    display: none !important;
+}
+.pros-list .col-container::before {
+    content: '';
+    display: block;
+    max-width: 70px;
+    height: 60px;
+    margin: 0 auto 15px;
+    background-position: center bottom !important;
+}
+
+.pros-list .col-container {
+    padding: 15px 10px;
+    box-sizing: border-box;
+    width: 160px;
+    height: 160px;
+    margin: 0 auto;
+    background: url(./bord.png) center no-repeat;
+        background-size: auto;
+    background-size: cover;
+    line-height: normal;
+}	
+
+
+.pros-list .col .col-container img {
+    max-width: 70px;
+}
+*, input[type="submit"] {
+    -webkit-appearance: none;
+}
+* {
+    outline: 0;
+}
+
+.pros-list .col-container {
+    line-height: normal;
+}
+
+.pros-list .col .col-container i, .pros-list-5 .col .col-container i, .pros-list-6 .col .col-container i, .prost-list-w-descr .col .col-container i {
+    font-size: 60px;
+    display: block;
+    margin: 0 auto 10px;
+    color: #1e659b;
+}
+
+[class*=" icon-"], [class^="icon-"] {
+    font-family: icomoon !important;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+}
+
+#main_block.pros-list {
+    background: 0 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#main_block {
+    font-family: Sans-Serif;
+    font-weight: 400;
+    font-size: 14px;
+    width: 680px;
+    height: 463px;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 520px) {
+
+#main_block.pros-list {
+    background: 0 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+.pros-list .col {
+    width: 50%;
+    float: left;
+    margin-bottom: 55px;
+}
+
+}
